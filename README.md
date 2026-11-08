@@ -1,6 +1,6 @@
 # Identical-Name Circuit Discovery in GPT-2 Medium
 
-![](./L1H2-Crucial-Circuit.png)
+![Crucial Circuit](./L1H2-Crucial-Circuit.png)
 
 This repository contains the code and experimental configurations for investigating how transformer language models process identical lexical names that occupy different semantic roles. Using mechanistic interpretability, we explore whether the internal components of **GPT-2 Medium** merely detect lexical repetition or contribute to true entity disambiguation.
 
