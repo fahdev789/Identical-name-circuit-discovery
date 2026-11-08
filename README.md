@@ -40,6 +40,19 @@ We tracked the attention weights directed from the recipient position back to th
 
 ---
 
+| Attention Head | John → John | John → Michael | Michael → John |
+| :--- | :---: | :---: | :---: |
+| **`L1H4`** | 0.41751 | 0.01892 | 0.01076 |
+| **`L6H4`** | 0.37800 | 0.00090 | 0.00277 |
+| **`L7H11`** | 0.36752 | 0.00001 | 0.00000 |
+| **`L23H5`** | 0.29085 | 0.26618 | 0.26483 |
+
+**This specific experiment reveals that L1H4 is sensitive to the repeated-name condition.**
+
+> Hence, L1H4 is the important component.
+
+
+
 ## 🚀 Future Roadmap
 
 The next phase of the project transitions from passive observation to causal verification:
