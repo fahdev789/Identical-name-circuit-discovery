@@ -55,6 +55,8 @@ We tracked the attention weights directed from the recipient position back to th
 
 Another concepts we can say Attention sink what happens when we don't consider the very first token across the distribution of the tokens.
 
+> **L1H4** retains its selective name-matching capabilities even without the BOS token.
+
 ![](./Attention-Scores-BOS-Token.png)
 
 
