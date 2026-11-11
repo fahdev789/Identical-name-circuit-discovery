@@ -28,6 +28,8 @@ Measuring the cosine similarity between the two "John" token positions across th
 * **Middle Layers (9–12):** Similarity reaches its lowest measured point (**0.886895 at Layer 12**), marking maximal contextual distinction.
 * **Later Layers (12–23):** Similarity increases again (**0.954089 at Layer 23**), returning to shared semantic or lexical properties.
 
+![Similarity of identical tokens](./cosine-similarity-across-layers.png)
+
 ### 2. Attention Head Discovery & Control Checks
 We tracked the attention weights directed from the recipient position back to the subject position. Comparing the base sentence against controlled variants reveals distinct functional behaviors among key heads:
 
