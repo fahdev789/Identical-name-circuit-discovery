@@ -62,6 +62,17 @@ Another concepts we can say Attention sink what happens when we don't consider t
 ![](./Attention-Scores-BOS-Token.png)
 
 
+---
+
+## References
+
+- Neel Nanda et al., [TransformerLens](https://github.com/TransformerLensOrg/TransformerLens)
+- nostalgebraist, [interpreting GPT: the logit lens](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens)
+- Meng et al., [Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262) — causal tracing / activation patching
+
+
+---
+
 ## 🚀 Future Roadmap
 
 The next phase of the project transitions from passive observation to causal verification:
